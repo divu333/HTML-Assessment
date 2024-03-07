@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Add FoodItem</title>
+        <style>
+            h3{
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+        <h1>Add FoodItem</h1><hr>
+        
+            <table>
+               <caption><b>FoodItem Information</b></caption>  
+                <tr>
+                    <td> <label for="FoodItem-name">FoodItem Name: </label></td>
+                    <td><input type="text" id="FoodItem-name"> </td>
+                </tr>
+                <tr>
+                    <td> <label for="description">FoodItem Description: </label></td>
+                    <td><textarea id="description"  cols="30" rows="5"></textarea><br></td>
+                </tr>
+                <tr>
+                    <td> <label for="Available">Available? </label></td>
+                    <td><input type="checkbox"  id="Available" > </td>
+                </tr>
+                <td> <label for="Vegetarian">Vegetarian? </label></td>
+                <td><input type="checkbox"  id="Vegetarian" > </td>
+            </tr>
+            <tr>
+                <td> <label for="category">Category : </label></td>   
+                <td>
+                <select name="category">
+                    <option selected>Pasta</option>
+                    <option>Pizza</option>
+                    <option>Burger</option>
+                    <option>Biriyani</option>
+                </select>    
+                </td>  
+            </tr>
+            <tr>
+                <td> <label for="cuisine">Cuisine : </label></td>   
+                <td>
+                <select name="" id="cuisine">
+                <option selected>Italian</option>
+                <option>American</option>
+                <option>Burger</option>
+                <option>Indian</option>
+            </select>    
+            </td>  
+        </tr>
+                <tr>
+                    <td> <label for="image-url">Image URL:</label></td>
+                    <td><input type="text" id="image-url">  </td>
+                </tr>
+                <tr>
+                    <td><button type="reset">Discard</button></td>
+                    <td><button type="submit">Save</button></td>
+                </tr>
+        </table>
+    </form>
+    </body>
+</html>
